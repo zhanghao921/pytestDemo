@@ -21,7 +21,7 @@ pip3 install -r requirements.txt
 ```
 
 接着，修改 ```config/setting.ini``` 配置文件，在Windows环境下，安装相应依赖之后，在命令行窗口执行命令：
-
+(!注意：allure-pytest必须要升级最新包，pip install allure-pytest，不然会报错pytest: error: unrecognized arguments: --alluredir)
 ```
 pytest
 ```
